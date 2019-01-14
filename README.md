@@ -12,7 +12,7 @@ g++ -lm oxDNA2dump.cpp -o oxDNA2dump
 
 USAGE
 -----
-./oxDNA2dump <oxDNAtopology> <oxDNAconfiguration>
+./oxDNA2dump oxDNAtopology oxDNAconfiguration
 
 
 EXAMPLE
