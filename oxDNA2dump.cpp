@@ -150,9 +150,9 @@ int main(int argc, char *argv[])
 	fileout << "ITEM: NUMBER OF ATOMS" << std::endl;
 	fileout << 2*totbead << std::endl;
 	fileout << "ITEM: BOX BOUNDS" << std::endl;
-	fileout << -sidex/2.0 << " " << sidex/2.0 << std::endl;
-	fileout << -sidey/2.0 << " " << sidey/2.0 << std::endl;
-	fileout << -sidez/2.0 << " " << sidez/2.0 << std::endl;
+	fileout << 0.0 << " " << sidex << std::endl;
+	fileout << 0.0 << " " << sidey << std::endl;
+	fileout << 0.0 << " " << sidez << std::endl;
 
 	//Saving energies into energies file
 	eneout << timestep << " " << etot << " " << upot << " " << ekin << std::endl;
